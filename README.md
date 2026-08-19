@@ -89,5 +89,85 @@ A Universal Function Object
 zero= np.zeros((2, 3)) This create a 2x3 arr, and every value must be 0 one= np.ones((3, 2)) This create a 3x2 arr, and every value must be 1 ranges= np.arange(0, 10, 2) this use as Start , Stop , Skip
 
 )
+Day 7
+first we give data to ML then analyses Past Data then trains , Then predicts Output
+
+Application Face rec. , Healthcare, alexa , swiggy, Weather Casting
+ML have Four Types
+
+Supervised Learing
+
+Regression("Agar o/p no. mai arra hai to vo Reg.")
+Classification("Agar o/p word ya text mai to vo hai to vo Classification.")
+Un-Supervised Learing
+
+reinforcement learning
+
+semi-supervised learning
+
+Data Gathering
+Data pre-processing
+Choose Model
+Train Model
+Test Model
+Tune Model
+prediction("BEST FITLINE")
+linear Reg.
+Logistic Reg.
+Decision Tree
+Random Forest
+K Nearest Neighbors
+liner reg. is a linear modeling approch to find a realn btw one or more independent Varaible .csv file = comma seprated value name,age,add, aman,18,'bhopal' .tsv file = Tab seprated value name age add
+
+Load the lib importing the lib
+
+Import the dataset
+
+Visualize the Data Visualize the dataset
+
+split the data into traning and testing set spliting the data into traning and testing set
+
+Fit simple Linear reg.
+
+predict the test set
+
+Visualize the train set result
+
+Visualize the test set result
+
+Calculating the residuals
+
+Day 8
+Today we make a new file called num_liner_reg.py
+
+"num_liner_reg.py" have to use prediect Marks
+
+seaborn use for Advance Graph pandas use for manuplation NumPy use for Array matplotlib Use for make a Graph
+
+Day 9
+X kya hI INDEPENDENT Var. Y kya hI DEPENDENT Var.
+
+Eqn of Lin
+
+MSE Squared Error (MSE) is a method us ed to measure how accurately a reg. Model predicts the traget Value EX suppose our model pre how to cal. MSE: mse = 4+4+4+4/4 =5.35
+
+Day 10
+A superviesd ML algo. used for Classification problems. is not used for Predicting Contionus Values . its predict the the probablity.
+
+based on sigmod(logistic) fun.
+
+-for ex
+
+0.98 0.18
+
+types of Logistic
+
+binary
+Multinomial
+Ordinal
+and also make logistic_reg.py
+
+Day 11
+KNN (K Nearest Neibour) Euclidian Method used to calculate distance b\w two points formula =(\sqrt{(x_{1}+x_{2})^{2}+(y_{1}+y_{2})^{2}}
 
 
